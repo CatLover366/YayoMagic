@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="SchemaItemBase">
 		<defName>ISFE_SchemaItem_Logos</defName>
-		<label>Santa's special "snow"</label>
+		<label>Santa's Special "Snow"</label>
 		<description>The finest, purest sample of pure driven "snow" from Santa's secret stash. If you take a good snort, you will become a crackh- an avatar of winter itself.</description>
 		<comps>
 			<li Class="ItsSorceryFramework.CompProperties_SchemaItem">
