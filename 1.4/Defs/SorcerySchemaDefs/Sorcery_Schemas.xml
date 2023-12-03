@@ -2,8 +2,8 @@
 <Defs>
 
 	<ItsSorceryFramework.SorcerySchemaDef ParentName = "SorcerySchemaBase">
-		<defName>ISFE_LogosExperimentia</defName>
-		<label>Logos Experimentia</label>
+		<defName>MSS_YSM_SnowcaneSuperpowers</defName>
+		<label>Christmas Miracles</label>
 		<description>Harnessing the power of 100% pure driven snow, destroy all who would threaten your festivities.\n\nIf the urn based pausing annoys you, you can toggle it off in the top left corner of the schemas pawn tab, next to the checkmark.\n\nDue to budget cuts, we were unable to procure a festive image to the right. Subbing in will be a picture of my cat.</description>
 	
 		<energyTrackerDefs>
