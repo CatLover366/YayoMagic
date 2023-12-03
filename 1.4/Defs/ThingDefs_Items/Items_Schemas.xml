@@ -9,7 +9,7 @@
 			<li Class="ItsSorceryFramework.CompProperties_SchemaItem">
 				<compClass>ItsSorceryFramework.CompSchemaItem</compClass>
 				<useJob>UseItem</useJob>
-				<useLabel>Snort {0}</useLabel>
+				<useLabel>Snort Santa's Special Snow</useLabel>
 				<schemaDef>MSS_YSM_SnowcaneSuperpowers</schemaDef>
 			</li>
 			<li Class="ItsSorceryFramework.CompProperties_UseEffectSchema">
