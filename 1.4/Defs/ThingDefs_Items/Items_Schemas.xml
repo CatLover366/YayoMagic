@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="SchemaItemBase">
-		<defName>ISFE_SchemaItem_Logos</defName>
+		<defName>MSS_YSM_SchemaItem_LiteralDrugs</defName>
 		<label>Santa's Special "Snow"</label>
 		<description>The finest, purest sample of pure driven "snow" from Santa's secret stash. If you take a good snort, you will become a crackh- an avatar of winter itself.</description>
 		<comps>
@@ -10,11 +10,11 @@
 				<compClass>ItsSorceryFramework.CompSchemaItem</compClass>
 				<useJob>UseItem</useJob>
 				<useLabel>Snort {0}</useLabel>
-				<schemaDef>ISFE_LogosExperimentia</schemaDef>
+				<schemaDef>MSS_YSM_SnowcaneSuperpowers</schemaDef>
 			</li>
 			<li Class="ItsSorceryFramework.CompProperties_UseEffectSchema">
 				<compClass>ItsSorceryFramework.CompUseEffect_Schema</compClass>
-				<schemaDef>ISFE_LogosExperimentia</schemaDef>
+				<schemaDef>MSS_YSM_SnowcaneSuperpowers</schemaDef>
 			</li>
 			<li Class="CompProperties_UseEffectArtifact">
 				<sound>PsychicAnimalPulserCast</sound>
