@@ -2,7 +2,7 @@
 <Defs>
 	
 	<ItsSorceryFramework.SorceryDef ParentName="SorceryBase">
-		<sorcerySchema>ISFE_LogosExperimentia</sorcerySchema>
+		<sorcerySchema>MSS_YSM_SnowcaneSuperpowers</sorcerySchema>
 		<defName>ISFE_Sorcery_Logos_Testing</defName>
 		<label>Testing</label>
 		<description>The basics of experimentation is the willingness to test your hypothesis.</description>
