@@ -119,9 +119,6 @@
 		<prereqs>
 			<li>ISFE_Node_Logos_Design</li>
 		</prereqs>
-		<exclusiveNodes>
-			<li>ISFE_Node_Logos_Surrender</li>
-		</exclusiveNodes>
 		
 		<hediffAdjust>
 			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>3</severity></li>
