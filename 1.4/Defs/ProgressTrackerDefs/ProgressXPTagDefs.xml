@@ -2,37 +2,17 @@
 
 <Defs>
 	<!-- Example 1 - Logos Experimentia --> 
-	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_CastEnergyCost">
-		<workerClass>ItsSorceryFramework.ProgressEXPWorker_CastEnergyCost</workerClass>
-		<defName>ISFE_Logos_EXPTag_CastEnergyCost</defName>
+	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_UseItem">
+		<workerClass>ItsSorceryFramework.ProgressEXPWorker_UseItem</workerClass>
+		<defName>ISFE_Sin_EXPTag_UseItem</defName>
 		<expFactor>1</expFactor>
-	</ItsSorceryFramework.ProgressEXPTagDef>
-	
-	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnDamage">
-		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnDamage</workerClass>
-		<defName>ISFE_Logos_EXPTag_OnDamage</defName>
-		<expFactor>1</expFactor>
-		<damageDefs>
-			<li>Cut</li>
-			<li>Blunt</li>
-			<li>ArrowHighVelocity</li>
-		</damageDefs>
-	</ItsSorceryFramework.ProgressEXPTagDef>
-	
-	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnDamaged">
-		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnDamaged</workerClass>
-		<defName>ISFE_Logos_EXPTag_OnDamaged</defName>
-		<expFactor>1</expFactor>
-	</ItsSorceryFramework.ProgressEXPTagDef>
-	
-	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_OnSkillEXP">
-		<workerClass>ItsSorceryFramework.ProgressEXPWorker_OnSkillEXP</workerClass>
-		<defName>ISFE_Logos_EXPTag_OnSkillEXP</defName>
-		<expFactor>0.3</expFactor>
-		<skillDefs>
-			<li>Melee</li>
-			<li>Shooting</li>
-		</skillDefs>
+		<expItems>
+			<li>
+				<thingDef>Yayo</thingDef>
+				<exp>10</exp>
+				<expFactorStat/>
+			</li>
+		</expItems>
 	</ItsSorceryFramework.ProgressEXPTagDef>
 	
 	<!-- Example 2 - Coomsumerism -->
