@@ -89,9 +89,6 @@
 			<li>ISFE_Sorcery_Logos_Testing</li>
 		</abilityGain>
 		
-		<hediffAdd>
-			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>1</severity></li>
-		</hediffAdd>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
@@ -107,39 +104,6 @@
 		<prereqs>
 			<li>ISFE_Node_Logos_Tools</li>
 		</prereqs>
-	</ItsSorceryFramework.LearningTreeNodeDef>
-	
-	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
-		<learningTrackerDef>ISFE_LearningTrackerTree_Logos_Two</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Surrender</defName>
-		<label>Give up</label>
-		<description>It's too hard. I give up.</description>
-		
-		<coordX>2</coordX>
-		<coordY>1</coordY>
-		<pointReq>0</pointReq>
-				
-		<prereqs>
-			<li>ISFE_Node_Logos_Design</li>
-			<li>ISFE_Node_Logos_Tools</li>
-		</prereqs>
-		<prereqMode>Min</prereqMode>
-		<prereqModeMin>1</prereqModeMin>
-		
-		<capMods>
-			<li>
-				<capacity>Manipulation</capacity>
-				<offset>1</offset>
-			</li>
-			<li>
-				<capacity>BloodPumping</capacity>
-				<offset>0.5</offset>
-			</li>
-		</capMods>
-		
-		<hediffRemove>
-			<li>ISFE_EnhancedIntel</li>
-		</hediffRemove>
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
