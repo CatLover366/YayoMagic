@@ -14,7 +14,6 @@
 		<learningTrackerDefs>
 			<li>ISFE_LearningTrackerProgress_Logos</li>
 			<li>ISFE_LearningTrackerTree_Logos</li>
-			<li>ISFE_LearningTrackerTree_Logos_Two</li>
 		</learningTrackerDefs>
 		<progressTrackerDef>ISFE_ProgressTrackerRPG_Logos</progressTrackerDef>
 	</ItsSorceryFramework.SorcerySchemaDef>
