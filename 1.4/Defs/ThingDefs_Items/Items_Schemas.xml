@@ -6,7 +6,7 @@
 		<label>Santa's Special "Snow"</label>
 		<description>The finest, purest sample of pure driven "snow" from Santa's secret stash. If you take a good snort, you will become a crackh- an avatar of winter itself.</description>
 		<graphicData>
-			<texPath>Things/Item/Drug/Yayo</texPath>
+			<texPath>Things/Item/Drug/MSS_Yayo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
