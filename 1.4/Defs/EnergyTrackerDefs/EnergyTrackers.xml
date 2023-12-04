@@ -43,7 +43,7 @@
 		<refreshInfoKey>ISFE_Vancian_Logos_Info</refreshInfoKey>
 		<refreshInfoDescKey>ISFE_Vancian_Logos_InfoDesc</refreshInfoDescKey>
 		
-		<refreshTicks>1500</refreshTicks>
+		<refreshTicks>6000</refreshTicks>
 		<energyLabelKey>ISFE_Vancian_Logos_Unit</energyLabelKey>
 	</ItsSorceryFramework.EnergyTrackerDef>
 	

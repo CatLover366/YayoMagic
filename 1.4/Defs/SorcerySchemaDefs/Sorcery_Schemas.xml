@@ -2,9 +2,9 @@
 <Defs>
 
 	<ItsSorceryFramework.SorcerySchemaDef ParentName = "SorcerySchemaBase">
-		<defName>ISFE_LogosExperimentia</defName>
-		<label>Logos Experimentia</label>
-		<description>A magic system meant to do magic things magically or something- no wait, logically.</description>
+		<defName>MSS_YSM_SnowcaneSuperpowers</defName>
+		<label>Christmas Miracles</label>
+		<description>Harnessing the power of 100% pure driven snow, destroy all who would threaten your festivities.\n\nIf the turn based pausing annoys you, you can toggle it off in the top left corner of the schemas pawn tab, next to the checkmark.\n\nDue to budget cuts, we were unable to procure a festive image to the right. Subbing in will be a picture of my cat.</description>
 	
 		<energyTrackerDefs>
 			<li>ISFE_RPG_Logos</li>
@@ -14,7 +14,6 @@
 		<learningTrackerDefs>
 			<li>ISFE_LearningTrackerProgress_Logos</li>
 			<li>ISFE_LearningTrackerTree_Logos</li>
-			<li>ISFE_LearningTrackerTree_Logos_Two</li>
 		</learningTrackerDefs>
 		<progressTrackerDef>ISFE_ProgressTrackerRPG_Logos</progressTrackerDef>
 	</ItsSorceryFramework.SorcerySchemaDef>

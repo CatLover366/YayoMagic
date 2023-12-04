@@ -2,10 +2,10 @@
 <Defs>
 	
 	<ItsSorceryFramework.SorceryDef ParentName="SorceryBase">
-		<sorcerySchema>ISFE_LogosExperimentia</sorcerySchema>
-		<defName>ISFE_Sorcery_Logos_Testing</defName>
-		<label>Testing</label>
-		<description>The basics of experimentation is the willingness to test your hypothesis.</description>
+		<sorcerySchema>MSS_YSM_SnowcaneSuperpowers</sorcerySchema>
+		<defName>ISFE_Sorcery_Coomsumerism_Pleasure</defName>
+		<label>spreading the joy</label>
+		<description>A basic technique that gives the target a small sample of "snow" to lift their spirits up</description>
 		<level>1</level>
 		<!--<iconPath>UI/Sorceries/hea</iconPath>-->
 		<warmupSound>ISFE_TomeFlip</warmupSound>
@@ -13,47 +13,10 @@
 		<cooldownTicksRange>300</cooldownTicksRange>
 		
 		<statBases>
-			<ISFE_Brainpower>25</ISFE_Brainpower>
+			<ISFE_Brainpower>10</ISFE_Brainpower>
 			<ISFE_Mindpower>25</ISFE_Mindpower>
 			<ISFE_Charges>1</ISFE_Charges>
-			<ISFE_MaxCharges>10</ISFE_MaxCharges>
-			<Ability_Duration>120</Ability_Duration>
-		</statBases>
-		<verbProperties>		
-			<verbClass>Verb_CastAbility</verbClass>
-			<range>24.9</range>
-			<requireLineOfSight>True</requireLineOfSight>
-			<warmupTime>0.5</warmupTime>
-			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
-			</targetParams>
-		</verbProperties>
-		
-		<comps>
-			<li Class="CompProperties_AbilityFireSpew">
-				<range>7.9</range>
-				<lineWidthEnd>3</lineWidthEnd>
-			</li>
-			<li Class="CompProperties_AbilityFleckOnTarget">
-				<fleckDef>PsycastPsychicEffect</fleckDef>
-			</li>
-		</comps>
-	</ItsSorceryFramework.SorceryDef>
-	
-	<ItsSorceryFramework.SorceryDef ParentName="SorceryBase">
-		<sorcerySchema>ISFE_Coomsumerism</sorcerySchema>
-		<defName>ISFE_Sorcery_Coomsumerism_Pleasure</defName>
-		<label>Pleasure</label>
-		<description>The first technique of a coomsumer, the ability to pleasure others and (mostly) oneself.</description>
-		<level>1</level>
-		<!--<iconPath>UI/Sorceries/hea</iconPath>-->
-		<warmupSound>ISFE_TomeFlip</warmupSound>
-		<aiCanUse>true</aiCanUse>
-		<cooldownTicksRange>300</cooldownTicksRange>
-		
-		<statBases>
-			<ISFE_SorceryStat_Coomsumerism_Stamina>10</ISFE_SorceryStat_Coomsumerism_Stamina>
-			<ISFE_SorceryStat_Coomsumerism_Ecstasy>25</ISFE_SorceryStat_Coomsumerism_Ecstasy>
+			<ISFE_MaxCharges>3</ISFE_MaxCharges>
 			<Ability_Duration>120</Ability_Duration>
 		</statBases>
 		<verbProperties>		
@@ -63,7 +26,7 @@
 			<warmupTime>0.5</warmupTime>
 			<targetParams>
 				<canTargetBuildings>False</canTargetBuildings>
-				<canTargetAnimals>False</canTargetAnimals>
+				<canTargetAnimals>True</canTargetAnimals>
 				<thingCategory>Item</thingCategory>
 				<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
 			</targetParams>
@@ -72,8 +35,7 @@
 		<comps>
 			<li Class = "CompProperties_AbilityGiveHediff">
 				<compClass>CompAbilityEffect_GiveHediff</compClass>
-				<hediffDef>AmbrosiaHigh</hediffDef>
-				<durationMultiplier>ISFE_Coomsumerism_CoomVirility</durationMultiplier>
+				<hediffDef>YayoHigh</hediffDef>
 				<psychic>false</psychic>
 				<applicableToMechs>False</applicableToMechs>
 			</li>

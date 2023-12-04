@@ -2,61 +2,24 @@
 <Defs>
 
 	<ThingDef ParentName="SchemaItemBase">
-		<defName>ISFE_SchemaItem_Logos</defName>
-		<label>Logic Structurer</label>
-		<description>A item meant to create a system in your mind to organize arcane knowledge.</description>
+		<defName>MSS_YSM_SchemaItem_LiteralDrugs</defName>
+		<label>Santa's Special "Snow"</label>
+		<description>The finest, purest sample of pure driven "snow" from Santa's secret stash. If you take a good snort, you will become a crackh- an avatar of winter itself.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/MSS_Yayo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
 		<comps>
 			<li Class="ItsSorceryFramework.CompProperties_SchemaItem">
 				<compClass>ItsSorceryFramework.CompSchemaItem</compClass>
 				<useJob>UseItem</useJob>
-				<useLabel>Learn {0}</useLabel>
-				<schemaDef>ISFE_LogosExperimentia</schemaDef>
+				<useLabel>Snort Santa's Special Snow</useLabel>
+				<schemaDef>MSS_YSM_SnowcaneSuperpowers</schemaDef>
 			</li>
 			<li Class="ItsSorceryFramework.CompProperties_UseEffectSchema">
 				<compClass>ItsSorceryFramework.CompUseEffect_Schema</compClass>
-				<schemaDef>ISFE_LogosExperimentia</schemaDef>
-			</li>
-			<li Class="CompProperties_UseEffectArtifact">
-				<sound>PsychicAnimalPulserCast</sound>
-			</li>
-		</comps>
-	</ThingDef>
-	
-	<ThingDef ParentName="SchemaItemBase">
-		<defName>ISFE_SchemaItem_Coomsumerism</defName>
-		<label>The Initiate's Guide to Coomsumerism</label>
-		<description>A catalog detailing the ravishing techniques of the Coomsumers.</description>
-		<comps>
-			<li Class="ItsSorceryFramework.CompProperties_SchemaItem">
-				<compClass>ItsSorceryFramework.CompSchemaItem</compClass>
-				<useJob>UseItem</useJob>
-				<useLabel>"Coomsume" the foundations of {0}</useLabel>
-				<schemaDef>ISFE_Coomsumerism</schemaDef>
-			</li>
-			<li Class="ItsSorceryFramework.CompProperties_UseEffectSchema">
-				<compClass>ItsSorceryFramework.CompUseEffect_Schema</compClass>
-				<schemaDef>ISFE_Coomsumerism</schemaDef>
-			</li>
-			<li Class="CompProperties_UseEffectArtifact">
-				<sound>PsychicAnimalPulserCast</sound>
-			</li>
-		</comps>
-	</ThingDef>
-	
-	<ThingDef ParentName="SchemaItemBase">
-		<defName>ISFE_SchemaItem_SinExorcism</defName>
-		<label>Old sealing charms</label>
-		<description>These well-worn charms speak the whispers of a skilled onmyoji.</description>
-		<comps>
-			<li Class="ItsSorceryFramework.CompProperties_SchemaItem">
-				<compClass>ItsSorceryFramework.CompSchemaItem</compClass>
-				<useJob>UseItem</useJob>
-				<useLabel>Embrace the filth of {0}</useLabel>
-				<schemaDef>ISFE_SinExorcism</schemaDef>
-			</li>
-			<li Class="ItsSorceryFramework.CompProperties_UseEffectSchema">
-				<compClass>ItsSorceryFramework.CompUseEffect_Schema</compClass>
-				<schemaDef>ISFE_SinExorcism</schemaDef>
+				<schemaDef>MSS_YSM_SnowcaneSuperpowers</schemaDef>
 			</li>
 			<li Class="CompProperties_UseEffectArtifact">
 				<sound>PsychicAnimalPulserCast</sound>
