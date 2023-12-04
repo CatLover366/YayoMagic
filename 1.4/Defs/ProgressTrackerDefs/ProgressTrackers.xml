@@ -50,9 +50,9 @@
 	<HediffDef ParentName="ProgressTrackerHediffBase"> 
 		<defName>ISFE_ProgressTrackerRPG_Hediff_Logos</defName>
 		<hediffClass>ItsSorceryFramework.Hediff_ProgressLevel</hediffClass>
-		<label>Logic Gate</label>
-		<defaultLabelColor>(0.8,0.8,0.8)</defaultLabelColor> <!-- gray color -->
-		<description>The gate to a user's knowledge, where all that can and must be known passes through. Abandon your irrationality here, for only pure truth may pass... and only truth may be transmuted into power.</description>
+		<label>Heart of Ice</label>
+		<defaultLabelColor>(0.8,0.8,1)</defaultLabelColor> <!-- gray color -->
+		<description>A amalgam of festive cheer and cold hard drugs, embedded deep within. Gnarly.</description>
 		<initialSeverity>1</initialSeverity> <!-- Severity is bound to level of implant -->
 		<minSeverity>0</minSeverity>
 		<maxSeverity>20</maxSeverity>
