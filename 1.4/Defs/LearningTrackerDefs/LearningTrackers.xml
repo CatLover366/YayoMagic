@@ -5,13 +5,13 @@
 	<ItsSorceryFramework.LearningTrackerDef ParentName = "LearningTrackerProgress">
 		<learningTrackerClass>ItsSorceryFramework.LearningTracker_Progress</learningTrackerClass>
 		<defName>ISFE_LearningTrackerProgress_Logos</defName>
-		<label>learning progress</label>
+		<label>Christmas Spirit progress</label>
 	</ItsSorceryFramework.LearningTrackerDef>
 	
 	<ItsSorceryFramework.LearningTrackerDef ParentName = "LearningTrackerTree">
 		<learningTrackerClass>ItsSorceryFramework.LearningTracker_Tree</learningTrackerClass>
 		<defName>ISFE_LearningTrackerTree_Logos</defName>
-		<label>First Studies</label>
+		<label>Skill Tree</label>
 	</ItsSorceryFramework.LearningTrackerDef>
 	
 	<ItsSorceryFramework.LearningTrackerDef ParentName = "LearningTrackerTree">
