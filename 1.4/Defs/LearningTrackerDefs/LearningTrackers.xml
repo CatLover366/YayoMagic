@@ -17,14 +17,14 @@
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
 		<learningTrackerDef>ISFE_LearningTrackerTree_Logos</learningTrackerDef>
 		<defName>ISFE_Node_Logos_BirdBees</defName>
-		<label>Birds and bees</label>
-		<description>The literal basics on being smart.</description>
+		<label>Holiday Theory</label>
+		<description>Theorize about the best way to spread holiday cheer among the populace. How can you possibly celebrate the holidays if no one else is partaking in the festivities, after all?</description>
 		
 		<prereqsSkills>
 			<li>
 				<mode>GreaterEqual</mode>
 				<skillReqs>
-					<li><skillDef>Intellectual</skillDef><level>3</level></li>
+					<li><skillDef>Intellectual</skillDef><level>5</level></li>
 				</skillReqs>
 			</li>
 		</prereqsSkills>
@@ -37,12 +37,12 @@
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
 		<learningTrackerDef>ISFE_LearningTrackerTree_Logos</learningTrackerDef>
 		<defName>ISFE_Node_Logos_Tools</defName>
-		<label>Experimental tools</label>
-		<description>You need the capability to test things, and that requires you to figure out what tools you need.</description>
+		<label>Spreading joy</label>
+		<description>After careful consideration, the best way to get into the spirit of the holidays is to forcibly share it with everyone else!</description>
 		
 		<coordX>1</coordX>
 		<coordY>0</coordY>
-		<pointReq>1</pointReq>
+		<pointReq>2</pointReq>
 		
 		<prereqs>
 			<li>ISFE_Node_Logos_BirdBees</li>
@@ -51,7 +51,7 @@
 			<li>
 				<mode>GreaterEqual</mode>
 				<skillReqs>
-					<li><skillDef>Intellectual</skillDef><level>4</level></li>
+					<li><skillDef>Intellectual</skillDef><level>6</level></li>
 				</skillReqs>
 			</li>
 		</prereqsSkills>
