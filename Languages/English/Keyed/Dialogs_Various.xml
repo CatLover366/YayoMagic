@@ -4,8 +4,8 @@
 	<!-- SorcerySchemaDef Info window - Energy Trackers -->
 	
 	<!-- Sorcery Schema example #1: Logos Experimentia -->
-	<ISFE_RPG_Logos_Unit>spirit power</ISFE_RPG_Logos_Unit>
-	<ISFE_RPGTurnBased_Logos_Unit>"snow" reserves</ISFE_RPGTurnBased_Logos_Unit>
+	<ISFE_RPG_Logos_Unit>Spirit Power</ISFE_RPG_Logos_Unit>
+	<ISFE_RPGTurnBased_Logos_Unit>"Snow" Reserves</ISFE_RPGTurnBased_Logos_Unit>
 	
 	<ISFE_RPGTurnBased_Logos_TurnInfo>spirit refocus time (secs)</ISFE_RPGTurnBased_Logos_TurnInfo>
 	<ISFE_RPGTurnBased_Logos_TurnInfoDesc>The amount of time it takes for the user to regain their holiday spirit in seconds.</ISFE_RPGTurnBased_Logos_TurnInfoDesc>
