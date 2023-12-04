@@ -6,7 +6,7 @@
 	<ItsSorceryFramework.ProgressTrackerDef ParentName = "ProgressTrackerLevelBase">
 		<progressTrackerClass>ItsSorceryFramework.ProgressTracker_Level</progressTrackerClass>
 		<defName>ISFE_ProgressTrackerRPG_Logos</defName>
-		<label>Logic System</label>
+		<label>Snow System</label>
 		<bgPath>UI/ProgressTracker/pickle_blep</bgPath>
 		
 		<progressHediff>ISFE_ProgressTrackerRPG_Hediff_Logos</progressHediff>
