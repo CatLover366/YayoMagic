@@ -4,7 +4,7 @@
 	<!-- Example 1 - Logos Experimentia --> 
 	<ItsSorceryFramework.ProgressEXPTagDef ParentName = "EXPTag_UseItem">
 		<workerClass>ItsSorceryFramework.ProgressEXPWorker_UseItem</workerClass>
-		<defName>ISFE_Sin_EXPTag_UseItem</defName>
+		<defName>ISFE_Logos_EXPTag_UseItem</defName>
 		<expFactor>1</expFactor>
 		<expItems>
 			<li>
