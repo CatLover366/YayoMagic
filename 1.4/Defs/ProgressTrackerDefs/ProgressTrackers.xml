@@ -43,10 +43,7 @@
 
 		</levelLabels>
 		<expTags>
-			<li>ISFE_Logos_EXPTag_CastEnergyCost</li>
-			<li>ISFE_Logos_EXPTag_OnDamage</li>
-			<li>ISFE_Logos_EXPTag_OnDamaged</li>
-			<li>ISFE_Logos_EXPTag_OnSkillEXP</li>
+			<li>ISFE_Logos_EXPTag_UseItem</li>
 		</expTags>
 	</ItsSorceryFramework.ProgressTrackerDef>
 	
