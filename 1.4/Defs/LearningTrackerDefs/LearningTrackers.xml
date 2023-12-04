@@ -14,12 +14,6 @@
 		<label>Skill Tree</label>
 	</ItsSorceryFramework.LearningTrackerDef>
 	
-	<ItsSorceryFramework.LearningTrackerDef ParentName = "LearningTrackerTree">
-		<learningTrackerClass>ItsSorceryFramework.LearningTracker_Tree</learningTrackerClass>
-		<defName>ISFE_LearningTrackerTree_Logos_Two</defName>
-		<label>Experimentation</label>
-	</ItsSorceryFramework.LearningTrackerDef>
-	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
 		<learningTrackerDef>ISFE_LearningTrackerTree_Logos</learningTrackerDef>
 		<defName>ISFE_Node_Logos_BirdBees</defName>
@@ -42,21 +36,17 @@
 	
 	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
 		<learningTrackerDef>ISFE_LearningTrackerTree_Logos</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Mediocrity</defName>
-		<label>Mediocrity</label>
-		<description>Becoming average is incredibly difficult, you know? You need to be better than 50% of all the people in the world, straddling the 100 IQ line.</description>
+		<defName>ISFE_Node_Logos_Tools</defName>
+		<label>Experimental tools</label>
+		<description>You need the capability to test things, and that requires you to figure out what tools you need.</description>
+		
+		<coordX>1</coordX>
+		<coordY>0</coordY>
+		<pointReq>1</pointReq>
 		
 		<prereqs>
 			<li>ISFE_Node_Logos_BirdBees</li>
 		</prereqs>
-		<prereqsStats>
-			<li>
-				<mode>LesserEqual</mode>
-				<statReqs>
-					<PsychicSensitivity>1.1</PsychicSensitivity>
-				</statReqs>
-			</li>
-		</prereqsStats>
 		<prereqsSkills>
 			<li>
 				<mode>GreaterEqual</mode>
@@ -66,102 +56,12 @@
 			</li>
 		</prereqsSkills>
 		
-		<coordX>1</coordX>
-		<coordY>0</coordY>
-		<pointReq>1</pointReq>
-	</ItsSorceryFramework.LearningTreeNodeDef>
-	
-	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
-		<learningTrackerDef>ISFE_LearningTrackerTree_Logos_Two</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Tools</defName>
-		<label>Experimental tools</label>
-		<description>You need the capability to test things, and that requires you to figure out what tools you need.</description>
-		
-		<coordX>0</coordX>
-		<coordY>0</coordY>
-		<pointReq>1</pointReq>
-		
-		<prereqs>
-			<li>ISFE_Node_Logos_BirdBees</li>
-		</prereqs>
-		
 		<abilityGain>
 			<li>ISFE_Sorcery_Coomsumerism_Pleasure</li>
 		</abilityGain>
 		
 	</ItsSorceryFramework.LearningTreeNodeDef>
 	
-	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
-		<learningTrackerDef>ISFE_LearningTrackerTree_Logos_Two</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Design</defName>
-		<label>Experimental design</label>
-		<description>Having a good experimental design allows you to determine the true effect of different factors.</description>
-		
-		<coordX>1</coordX>
-		<coordY>0</coordY>
-		<pointReq>3</pointReq>
-				
-		<prereqs>
-			<li>ISFE_Node_Logos_Tools</li>
-		</prereqs>
-	</ItsSorceryFramework.LearningTreeNodeDef>
-	
-	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
-		<learningTrackerDef>ISFE_LearningTrackerTree_Logos_Two</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Refinement</defName>
-		<label>Experimental refinement</label>
-		<description>Make sure to develop proper controls.</description>
-		
-		<coordX>2</coordX>
-		<coordY>0</coordY>
-		<pointReq>2</pointReq>
-				
-		<prereqs>
-			<li>ISFE_Node_Logos_Design</li>
-		</prereqs>
-		
-		<hediffAdjust>
-			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>3</severity></li>
-		</hediffAdjust>
-	</ItsSorceryFramework.LearningTreeNodeDef>
-	
-	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
-		<learningTrackerDef>ISFE_LearningTrackerTree_Logos_Two</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Collection</defName>
-		<label>Data collection</label>
-		<description>Good data collection now saves a lot of heartache later.</description>
-		
-		<coordX>3</coordX>
-		<coordY>0</coordY>
-		<pointReq>2</pointReq>
-				
-		<prereqs>
-			<li>ISFE_Node_Logos_Refinement</li>
-		</prereqs>
-		
-		<hediffAdjust>
-			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>3</severity></li>
-		</hediffAdjust>
-	</ItsSorceryFramework.LearningTreeNodeDef>
-	
-	<ItsSorceryFramework.LearningTreeNodeDef ParentName = "LearningTreeNodeBase">
-		<learningTrackerDef>ISFE_LearningTrackerTree_Logos_Two</learningTrackerDef>
-		<defName>ISFE_Node_Logos_Conclusion</defName>
-		<label>Research conclusion</label>
-		<description>A through analysis allows the next bit of research to reach new heights.</description>
-		
-		<coordX>4</coordX>
-		<coordY>0</coordY>
-		<pointReq>2</pointReq>
-				
-		<prereqs>
-			<li>ISFE_Node_Logos_Collection</li>
-		</prereqs>
-		
-		<hediffAdjust>
-			<li><hediffDef>ISFE_EnhancedIntel</hediffDef><severity>3</severity></li>
-		</hediffAdjust>
-	</ItsSorceryFramework.LearningTreeNodeDef>
 	
 	<!-- Example 2: Coomsumerism -->
 	<ItsSorceryFramework.LearningTrackerDef ParentName = "LearningTrackerProgress">
