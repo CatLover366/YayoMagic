@@ -4,9 +4,9 @@
 	<!-- Example 1: Logos Experimentia -->
 	<StatDef>
 		<defName>ISFE_Brainpower</defName>
-		<label>brainpower</label>
+		<label>spirit power</label>
 		<category>Sorcery_ISF</category>
-		<description>The amount of brain energy a technique requires to cast.</description>
+		<description>The amount of holiday spirit an ability needs to be used.</description>
 		<defaultBaseValue>10</defaultBaseValue>
 		<showIfUndefined>false</showIfUndefined>
 		<displayPriorityInCategory>1</displayPriorityInCategory>
@@ -14,9 +14,9 @@
 	
 	<StatDef>
 		<defName>ISFE_Mindpower</defName>
-		<label>mindpower</label>
+		<label>"snow" reserves</label>
 		<category>Sorcery_ISF</category>
-		<description>The amount of mind energy a technique requires to cast.</description>
+		<description>The amount of "snow" an ability requires to cast.</description>
 		<defaultBaseValue>10</defaultBaseValue>
 		<showIfUndefined>false</showIfUndefined>
 		<displayPriorityInCategory>1</displayPriorityInCategory>
